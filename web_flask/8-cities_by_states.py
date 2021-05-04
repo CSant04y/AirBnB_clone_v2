@@ -16,7 +16,7 @@ def states_list():
     """[Sets the route for cities by states]
     """
     state = storage.all(State)
-    return render_template('7-states_list.html', States=state)
+    return render_template('8-cities_by_states.html', States=state)
 
 
 @app.teardown_appcontext
